@@ -88,6 +88,18 @@ Aplicar os conhecimentos adquiridos nas aulas de Programação Web, explorando:
 
 Este projeto possui finalidade exclusivamente educacional e demonstrativa, sem processamento real de compras ou autenticação de usuários.
 
+## 🌐 Acesse o site
+
+Conheça o PONTO GAMER e explore o catálogo virtual de produtos gamers!
+
+<div align="center">
+
+[![Acessar PONTO GAMER](https://img.shields.io/badge/ACESSAR%20SITE-PONTO%20GAMER-DF36D4?style=for-the-badge&logo=vercel&logoColor=white)](https://ponto-gamer.vercel.app/)
+
+</div>
+
+🔗 **Link oficial:** https://ponto-gamer.vercel.app/
+
 ## 👩🏻‍💻 Desenvolvedora
 
 **Ana Clara Mello**
