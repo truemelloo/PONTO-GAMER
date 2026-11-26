@@ -1,13 +1,13 @@
 
 <div align="center">
 
-  <img src="imgs/logotipo.png" alt="PONTO GAMER" width="350">
+  <img src="./logotipo.png" alt="PONTO GAMER" width="400">
 
-  ### 🎮 Seu setup dos sonhos começa aqui!
+  <h3>🎮 Seu setup dos sonhos começa aqui!</h3>
 
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![ETEC](https://img.shields.io/badge/Projeto_Acadêmico-A855F7?style=for-the-badge)
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/ETEC-Projeto%20Academico-A855F7?style=for-the-badge">
 
 </div>
 
