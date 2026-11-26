@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>
+            Ponto Gamer | Login e Cadastro
+        </title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="container topo">
+                <a aria-label="Ponto Gamer, página inicial" class="marca" href="index.html">
+                    <img alt="Logotipo original Ponto Gamer" src="imgs/logotipo.png"/>
+                </a>
+                <p>
+                    Seu setup começa aqui
+                    <span aria-hidden="true">
+                        ✦
+                    </span>
+                </p>
+            </div>
+        </header>
+        <nav class="navegacao">
+            <div class="container menu">
+                <a href="index.html">
+                    Início
+                </a>
+                <a href="index.html#produtos">
+                    Produtos
+                </a>
+                <a href="index.html#sobre">
+                    Sobre a loja
+                </a>
+                <a href="acesso.html#login">
+                    Login
+                </a>
+                <a href="acesso.html#cadastro">
+                    Cadastro
+                </a>
+            </div>
+        </nav>
+        <main class="container acesso">
+            <h1>
+                Entre ou crie sua conta
+            </h1>
+            <p class="subtitulo">
+                Acesse sua conta ou preencha o cadastro para conhecer nossa loja.
+            </p>
+            <div class="formularios">
+                <section class="painel" id="login">
+                    <h2>
+                        Login
+                    </h2>
+                    <form action="#login" method="get">
+                        <label for="usuario">
+                            Usuário
+                        </label>
+                        <input id="usuario" name="usuario" placeholder="Digite seu usuário" required="" type="text"/>
+                        <label for="senha-login">
+                            Senha
+                        </label>
+                        <input id="senha-login" name="senha-login" placeholder="Digite sua senha" required="" type="password"/>
+                        <button type="button">
+                            Entrar
+                        </button>
+                    </form>
+                </section>
+                <section class="painel" id="cadastro">
+                    <h2>
+                        Cadastro
+                    </h2>
+                    <form action="#cadastro" method="get">
+                        <label for="nome">
+                            Nome completo
+                        </label>
+                        <input id="nome" name="nome" placeholder="Digite seu nome" required="" type="text"/>
+                        <label for="nascimento">
+                            Data de nascimento
+                        </label>
+                        <input id="nascimento" name="nascimento" required="" type="date"/>
+                        <label for="endereco">
+                            Endereço
+                        </label>
+                        <input id="endereco" name="endereco" placeholder="Rua, número e bairro" required="" type="text"/>
+                        <label for="cidade">
+                            Cidade
+                        </label>
+                        <input id="cidade" name="cidade" placeholder="Digite sua cidade" required="" type="text"/>
+                        <label for="estado">
+                            Estado
+                        </label>
+                        <select name="estado" id="estado" required>
+                            <option value="">Selecione um estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                        <fieldset>
+                            <legend>
+                                Tipo de pessoa
+                            </legend>
+                            <label class="radio">
+                                <input name="tipo-pessoa" required="" type="radio" value="fisica"/>
+                                Pessoa Física
+                            </label>
+                            <label class="radio">
+                                <input name="tipo-pessoa" type="radio" value="juridica"/>
+                                Pessoa Jurídica
+                            </label>
+                        </fieldset>
+                        <label for="senha-cadastro">
+                            Senha
+                        </label>
+                        <input id="senha-cadastro" name="senha-cadastro" placeholder="Crie uma senha" required="" type="password"/>
+                        <label for="email">
+                            E-mail
+                        </label>
+                        <input id="email" name="email" placeholder="exemplo@email.com" required="" type="email"/>
+                        <button type="button">
+                            Cadastrar
+                        </button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer class="rodape">
+            <div class="container rodape-conteudo">
+                <div>
+                    <h2>
+                        PONTO GAMER
+                    </h2>
+                    <p>
+                        Seu cantinho gamer, do seu jeito.
+                    </p>
+                </div>
+                <p>
+                    Projeto acadêmico de Programação Web • Catálogo demonstrativo
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
